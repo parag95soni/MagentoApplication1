@@ -22,6 +22,7 @@ public class Login
 	public void typePassword(String data) 
 	{
 		driver.findElement(pwd).sendKeys(data);
+		System.out.println("Done Change1");
 	}
 	
 	public void clickOnLogin() 
