@@ -16,6 +16,7 @@ public class Login
 	public void typeEmail(String data) 
 	{
 		driver.findElement(email).sendKeys(data);
+		System.out.println("Done Changes");
 	}
 	
 	public void typePassword(String data) 
